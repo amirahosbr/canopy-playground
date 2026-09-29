@@ -93,6 +93,19 @@ body {
     transition: background 0.3s, transform 0.2s;
 }
 
+/* Inside the blue hero the default blue button disappears: make it white with blue text. */
+.hero .cta-btn {
+    background: var(--light);
+    color: var(--primary);
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.hero .cta-btn:hover {
+    background: #e8f1fb;
+    color: #0052a3;
+}
+
 .cta-btn:hover {
     background: #0052a3;
     transform: translateY(-2px);
